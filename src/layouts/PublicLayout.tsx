@@ -6,7 +6,7 @@ export function PublicLayout({ children }: { children: ReactNode }) {
   return (
     <div className="flex min-h-dvh flex-col bg-background text-foreground">
       <Header />
-      <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-6">
+      <main className="mx-auto flex w-full max-w-[1440px] flex-1 flex-col px-6 lg:px-10">
         {children}
       </main>
       <Footer />
